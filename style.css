@@ -1,0 +1,134 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #e6e6e6;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff00ff;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    color: #a8a8a8;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 2rem;
+    color: #ff00ff;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ff00ff;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.project-grid, .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.experience-card, .education-card, .project-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.experience-card:hover, .education-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    border-color: #ff00ff;
+}
+
+.experience-card h3, .education-card h3, .project-card h3 {
+    margin-top: 0;
+}
+
+.logo-img {
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 1rem;
+}
+
+.logo-placeholder {
+    font-style: italic;
+    color: #a8a8a8;
+}
+
+a {
+    color: #ff00ff;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-top: 1px solid #333;
+}
+
