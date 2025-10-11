@@ -11,360 +11,362 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="sparkles">
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-      <div class="sparkle"></div>
-    </div>
-    <header>
-      <nav>
-        <div class="logo"><a href="#">&lt; Azam Ali /&gt;</a></div>
-        <button class="hamburger" aria-label="Toggle navigation">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section id="hero">
-        <div class="hero-text">
-          <h1>Azam Ali</h1>
-          <p class="quote">"Coding is my passion, not an obligation."</p>
-        </div>
-      </section>
-
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I'm a B.Tech student at SRMIST, KTR, with a passion for tech and
-          exploring new ideas. I enjoy diving into development, solving
-          problems, and experimenting with things on my own. Always curious and
-          eager to learn, I’m open to collaborations and projects, both as a
-          team member and as a guide or team leader.
-        </p>
-      </section>
-
-      <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-grid">
-          <div class="experience-card">
-            <img
-              src="assets/foss-logo.png"
-              alt="FOSS Club SRM Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://fossunited.org/c/srm-ktr"
-                target="_blank"
-                class="university-link"
-                >FOSS Club SRM</a
-              >
-            </h3>
-            <p>Technical Member</p>
-            <p>August 2025 - Present</p>
+    </head>
+    <body>
+      <canvas id="cursor-canvas"></canvas>
+      <div class="sparkles">
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+      </div>
+      <header>
+        <nav>
+          <div class="logo"><a href="#">&lt; Azam Ali /&gt;</a></div>
+          <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main>
+        <section id="hero">
+          <div class="hero-text">
+            <h1>Azam Ali</h1>
+            <p class="quote">"Coding is my passion, not an obligation."</p>
           </div>
-          <div class="experience-card">
-            <img
-              src="assets/hackthebox-chennai.png"
-              alt="HackTheBox Chennai Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://htbchennai.in/"
-                target="_blank"
-                class="university-link"
-                >HackTheBox Chennai</a
-              >
-            </h3>
-            <p>Technical Member (Development)</p>
-            <p>September 2025 - Present</p>
-          </div>
-          <div class="experience-card">
-            <img
-              src="assets/hyperloopin-logo.png"
-              alt="Hyperloopin Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://hyperloopin.vercel.app/"
-                target="_blank"
-                class="university-link"
-                >Hyperloopin</a
-              >
-            </h3>
-            <p>Technical Member (Software Configuration)</p>
-            <p>August 2025 - Present</p>
-          </div>
-          <div class="experience-card">
-            <img
-              src="assets/founders-club-logo.png"
-              alt="Founders Club Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://www.thefoundersclub.in/"
-                target="_blank"
-                class="university-link"
-                >Founders Club</a
-              >
-            </h3>
-            <p>Corporate Member (Outreach)</p>
-            <p>September 2025 - Present</p>
-          </div>
-          <div class="experience-card">
-            <img
-              src="assets/open-source-connect-logo.png"
-              alt="Open Source Connect Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://www.osconnect.org/"
-                target="_blank"
-                class="university-link"
-                >Open Source Connect</a
-              >
-            </h3>
-            <p>Contributor - Open Source Connect India</p>
-            <p>August 2025 - Present</p>
-          </div>
-          <div class="experience-card">
-            <img
-              src="assets/perplexity-logo-new.png"
-              alt="Perplexity AI Logo"
-              class="logo-img"
-            />
-            <h3>
-              <a
-                href="https://pplx-on-campus.framer.website/campus-partners"
-                target="_blank"
-                class="university-link"
-                >Perplexity</a
-              >
-            </h3>
-            <p>Campus Ambassador</p>
-            <p>August 2025 - Present</p>
-          </div>
-          <div class="experience-card">
-            <img src="assets/iste-logo.webp" alt="ISTE Logo" class="logo-img" />
-            <h3>
-              <a
-                href="https://www.srmist.edu.in/iste-chapter/"
-                target="_blank"
-                class="university-link"
-                >Indian Society for Technical Education, SRM</a
-              >
-            </h3>
-            <p>Student Member</p>
-            <p>February 2025 - Present</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="education">
-        <h2>Education</h2>
-        <div class="education-card">
-          <img
-            src="https://scet.berkeley.edu/wp-content/uploads/8.-SRM-Logo.png"
-            alt="SRM Logo"
-            class="logo-img"
-          />
-          <h3>
-            <a
-              href="https://www.srmist.edu.in/"
-              target="_blank"
-              class="university-link"
-              >SRM IST Chennai (K.T.R Campus)</a
-            >
-          </h3>
-          <p>Bachelor of Technology - BTech, Computer Science</p>
-          <p>2024 - 2028</p>
-        </div>
-      </section>
-
-      <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-          <div class="project-card github-project-card">
-            <a
-              href="https://github.com/AzamAliCodes/minimal-blue-vscode-theme"
-              target="_blank"
-            >
+        </section>
+  
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I'm a B.Tech student at SRMIST, KTR, with a passion for tech and
+            exploring new ideas. I enjoy diving into development, solving
+            problems, and experimenting with things on my own. Always curious and
+            eager to learn, I’m open to collaborations and projects, both as a
+            team member and as a guide or team leader.
+          </p>
+        </section>
+  
+        <section id="experience">
+          <h2>Experience</h2>
+          <div class="experience-grid">
+            <div class="experience-card">
               <img
-                src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=minimal-blue-vscode-theme&theme=tokyonight"
-                alt="Minimal Blue VSCode Theme"
+                src="assets/foss-logo.png"
+                alt="FOSS Club SRM Logo"
+                class="logo-img"
               />
-            </a>
-            <a
-              href="https://marketplace.visualstudio.com/items?itemName=AzamAli.minimal-blue"
-              target="_blank"
-              class="download-link"
-            >
-              ╰┈➤Minimal Blue Theme
-            </a>
-            <p class="extension-info">ⓘ Extention Link (VS Code Marketplace)</p>
-          </div>
-          <div class="project-card github-project-card">
-            <a
-              href="https://github.com/AzamAliCodes/calculator"
-              target="_blank"
-            >
+              <h3>
+                <a
+                  href="https://fossunited.org/c/srm-ktr"
+                  target="_blank"
+                  class="university-link"
+                  >FOSS Club SRM</a
+                >
+              </h3>
+              <p>Technical Member</p>
+              <p>August 2025 - Present</p>
+            </div>
+            <div class="experience-card">
               <img
-                src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=calculator&theme=tokyonight&cache_seconds=1800&bust_cache=1"
-                alt="Calculator Project"
+                src="assets/hackthebox-chennai.png"
+                alt="HackTheBox Chennai Logo"
+                class="logo-img"
               />
-            </a>
-            <a
-              href="https://azamalicodes.github.io/calculator/"
-              target="_blank"
-              class="download-link"
-            >
-              ╰┈➤Calculator
-            </a>
-            <p class="extension-info">ⓘ Live Demo</p>
-          </div>
-          <div class="project-card github-project-card">
-            <a
-              href="https://github.com/AzamAliCodes/Movie-Manager"
-              target="_blank"
-            >
+              <h3>
+                <a
+                  href="https://htbchennai.in/"
+                  target="_blank"
+                  class="university-link"
+                  >HackTheBox Chennai</a
+                >
+              </h3>
+              <p>Technical Member (Development)</p>
+              <p>September 2025 - Present</p>
+            </div>
+            <div class="experience-card">
               <img
-                src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=Movie-Manager&theme=tokyonight"
-                alt="Movie Manager Project"
+                src="assets/hyperloopin-logo.png"
+                alt="Hyperloopin Logo"
+                class="logo-img"
               />
-            </a>
-            <p class="extension-info">ⓘ Java Swing Desktop App</p>
+              <h3>
+                <a
+                  href="https://hyperloopin.vercel.app/"
+                  target="_blank"
+                  class="university-link"
+                  >Hyperloopin</a
+                >
+              </h3>
+              <p>Technical Member (Software Configuration)</p>
+              <p>August 2025 - Present</p>
+            </div>
+            <div class="experience-card">
+              <img
+                src="assets/founders-club-logo.png"
+                alt="Founders Club Logo"
+                class="logo-img"
+              />
+              <h3>
+                <a
+                  href="https://www.thefoundersclub.in/"
+                  target="_blank"
+                  class="university-link"
+                  >Founders Club</a
+                >
+              </h3>
+              <p>Corporate Member (Outreach)</p>
+              <p>September 2025 - Present</p>
+            </div>
+            <div class="experience-card">
+              <img
+                src="assets/open-source-connect-logo.png"
+                alt="Open Source Connect Logo"
+                class="logo-img"
+              />
+              <h3>
+                <a
+                  href="https://www.osconnect.org/"
+                  target="_blank"
+                  class="university-link"
+                  >Open Source Connect</a
+                >
+              </h3>
+              <p>Contributor - Open Source Connect India</p>
+              <p>August 2025 - Present</p>
+            </div>
+            <div class="experience-card">
+              <img
+                src="assets/perplexity-logo-new.png"
+                alt="Perplexity AI Logo"
+                class="logo-img"
+              />
+              <h3>
+                <a
+                  href="https://pplx-on-campus.framer.website/campus-partners"
+                  target="_blank"
+                  class="university-link"
+                  >Perplexity</a
+                >
+              </h3>
+              <p>Campus Ambassador</p>
+              <p>August 2025 - Present</p>
+            </div>
+            <div class="experience-card">
+              <img src="assets/iste-logo.webp" alt="ISTE Logo" class="logo-img" />
+              <h3>
+                <a
+                  href="https://www.srmist.edu.in/iste-chapter/"
+                  target="_blank"
+                  class="university-link"
+                  >Indian Society for Technical Education, SRM</a
+                >
+              </h3>
+              <p>Student Member</p>
+              <p>February 2025 - Present</p>
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Get in Touch</h2>
-        <div class="contact-box">
-          <div class="contact-item">
-            <h3>Email :</h3>
-            <p>
-              <a href="mailto:social.azamali@gmail.com"
-                >social.azamali@gmail.com</a
-              >
-            </p>
-          </div>
-          <div class="contact-item linkedin-box">
+        </section>
+  
+        <section id="education">
+          <h2>Education</h2>
+          <div class="education-card">
+            <img
+              src="https://scet.berkeley.edu/wp-content/uploads/8.-SRM-Logo.png"
+              alt="SRM Logo"
+              class="logo-img"
+            />
             <h3>
-              LinkedIn :
               <a
-                href="https://www.linkedin.com/in/azam-ali-373587341"
+                href="https://www.srmist.edu.in/"
                 target="_blank"
-                class="username-link"
-                >Azam Ali</a
+                class="university-link"
+                >SRM IST Chennai (K.T.R Campus)</a
               >
             </h3>
-            <div
-              class="LI-profile-badge"
-              data-version="v1"
-              data-size="medium"
-              data-locale="en_US"
-              data-type="horizontal"
-              data-theme="dark"
-              data-vanity="azam-ali-373587341"
-            ></div>
+            <p>Bachelor of Technology - BTech, Computer Science</p>
+            <p>2024 - 2028</p>
           </div>
-          <div class="contact-item">
-            <h3>
-              Github :
+        </section>
+  
+        <section id="projects">
+          <h2>My Projects</h2>
+          <div class="project-grid">
+            <div class="project-card github-project-card">
               <a
-                href="https://github.com/AzamAliCodes"
+                href="https://github.com/AzamAliCodes/minimal-blue-vscode-theme"
                 target="_blank"
-                class="username-link"
-                >@AzamALiCodes</a
               >
-            </h3>
-            <a href="https://github.com/AzamAliCodes" target="_blank">
-              <img
-                src="https://github-readme-stats.vercel.app/api?username=AzamAliCodes&show_icons=true&theme=tokyonight&count_private=true&hide_rank=true"
-                alt="Azam Ali's GitHub Stats"
-              />
-              <img
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=AzamAliCodes&layout=compact&theme=tokyonight"
-                alt="Azam Ali's Top Languages"
-              />
-            </a>
+                <img
+                  src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=minimal-blue-vscode-theme&theme=tokyonight"
+                  alt="Minimal Blue VSCode Theme"
+                />
+              </a>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=AzamAli.minimal-blue"
+                target="_blank"
+                class="download-link"
+              >
+                ╰┈➤Minimal Blue Theme
+              </a>
+              <p class="extension-info">ⓘ Extention Link (VS Code Marketplace)</p>
+            </div>
+            <div class="project-card github-project-card">
+              <a
+                href="https://github.com/AzamAliCodes/calculator"
+                target="_blank"
+              >
+                <img
+                  src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=calculator&theme=tokyonight&cache_seconds=1800&bust_cache=1"
+                  alt="Calculator Project"
+                />
+              </a>
+              <a
+                href="https://azamalicodes.github.io/calculator/"
+                target="_blank"
+                class="download-link"
+              >
+                ╰┈➤Calculator
+              </a>
+              <p class="extension-info">ⓘ Live Demo</p>
+            </div>
+            <div class="project-card github-project-card">
+              <a
+                href="https://github.com/AzamAliCodes/Movie-Manager"
+                target="_blank"
+              >
+                <img
+                  src="https://github-readme-stats.vercel.app/api/pin/?username=AzamAliCodes&repo=Movie-Manager&theme=tokyonight"
+                  alt="Movie Manager Project"
+                />
+              </a>
+              <p class="extension-info">ⓘ Java Swing Desktop App</p>
+            </div>
           </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2025 Azam Ali</p>
-    </footer>
-
-    <script src="script.js"></script>
-    <script
-      src="https://platform.linkedin.com/badges/js/profile.js"
-      async
-      defer
-    ></script>
-  </body>
-</html>
+        </section>
+  
+        <section id="contact">
+          <h2>Get in Touch</h2>
+          <div class="contact-box">
+            <div class="contact-item">
+              <h3>Email :</h3>
+              <p>
+                <a href="mailto:social.azamali@gmail.com"
+                  >social.azamali@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="contact-item linkedin-box">
+              <h3>
+                LinkedIn :
+                <a
+                  href="https://www.linkedin.com/in/azam-ali-373587341"
+                  target="_blank"
+                  class="username-link"
+                  >Azam Ali</a
+                >
+              </h3>
+              <div
+                class="LI-profile-badge"
+                data-version="v1"
+                data-size="medium"
+                data-locale="en_US"
+                data-type="horizontal"
+                data-theme="dark"
+                data-vanity="azam-ali-373587341"
+              ></div>
+            </div>
+            <div class="contact-item">
+              <h3>
+                Github :
+                <a
+                  href="https://github.com/AzamAliCodes"
+                  target="_blank"
+                  class="username-link"
+                  >@AzamALiCodes</a
+                >
+              </h3>
+              <a href="https://github.com/AzamAliCodes" target="_blank">
+                <img
+                  src="https://github-readme-stats.vercel.app/api?username=AzamAliCodes&show_icons=true&theme=tokyonight&count_private=true&hide_rank=true"
+                  alt="Azam Ali's GitHub Stats"
+                />
+                <img
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=AzamAliCodes&layout=compact&theme=tokyonight"
+                  alt="Azam Ali's Top Languages"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+  
+      <footer>
+        <p>&copy; 2025 Azam Ali</p>
+      </footer>
+  
+      <script src="script.js"></script>
+      <script
+        src="https://platform.linkedin.com/badges/js/profile.js"
+        async
+        defer
+      ></script>
+    </body>
+  </html>
+  

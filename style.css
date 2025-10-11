@@ -18,6 +18,17 @@ body {
     padding: 0;
     background: radial-gradient(ellipse at center, #222222 0%, #121212 100%);
     color: var(--text-color);
+    caret-color: transparent;
+}
+
+#cursor-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
 }
 
 .sparkles {
