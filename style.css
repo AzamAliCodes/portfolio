@@ -226,6 +226,45 @@ h2 {
     gap: 2rem;
 }
 
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tool-item p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--secondary-text-color);
+}
+
+.tool-desc {
+    font-size: 0.8rem;
+    color: var(--secondary-text-color);
+}
+
+.tool-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.tool-logo:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px var(--accent-color-1));
+}
+
 .project-card img {
     max-width: 100%;
 }
@@ -404,6 +443,16 @@ footer {
         margin: 0;
         text-align: center;
         padding: 0.5rem 0;
+    }
+
+    .tools-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tools-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
